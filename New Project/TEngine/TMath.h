@@ -39,6 +39,7 @@ float			WrapPi(float f);
 float			ZoomToFov(float fZoom);
 float			FovToZoom(float fFov);
 void			SinCos(float angle, float& sin, float& cos);
+float			Sqrt(float x);
 
 #define FLT_EQ(a,b)	(fabsf(a - b) < EPSILON)
 

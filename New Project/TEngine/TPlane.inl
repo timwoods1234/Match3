@@ -97,7 +97,7 @@ inline void	TPlane::SetConstant(float constant)
 //-------------------------------------------------------------------------------
 inline float TPlane::Magnitude() const
 {
-	return sqrt(MagnitudeSquared());
+	return Sqrt(MagnitudeSquared());
 }
 
 //-------------------------------------------------------------------------------

@@ -17,7 +17,7 @@ void GetIntersectPoints(const TRay& ray, const TSphere& sphere, unsigned int& nu
     }
     else if ( fDiscr > 0.0 )
     {
-        float fRoot = sqrt(fDiscr);
+        float fRoot = Sqrt(fDiscr);
         float fInvA = 1.0f/fA;
         afT[0] = (-fB - fRoot)*fInvA;
         afT[1] = (-fB + fRoot)*fInvA;

@@ -94,6 +94,12 @@ float ZoomToFov(float fZoom)
 }
 
 //-------------------------------------------------------------------------------
+float Sqrt(float x)
+{
+	return (float)sqrt((double)x);
+}
+
+//-------------------------------------------------------------------------------
 float FovToZoom(float fFov)
 {
 	return 1.0f / tan(fFov * 0.5f);

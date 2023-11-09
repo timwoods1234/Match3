@@ -127,7 +127,7 @@ bool CheckCollision(TVector3 &a_position, TVector3 &b_position,
 	}
 
 	// So A needs to travel along its axis by d - sqrt(T)
-	double distance = d - sqrt(t);
+	double distance = d - Sqrt(t);
 
 	// magnitude of move vector
 	double mag = a_move.GetLength();

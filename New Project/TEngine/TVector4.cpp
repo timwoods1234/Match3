@@ -121,7 +121,7 @@ void TVector4::Set(float x, float y, float z, float w)
 //-------------------------------------------------------------------------------
 float TVector4::GetLength() const
 {
-	return sqrt(GetSquaredLength());
+	return Sqrt(GetSquaredLength());
 }
 
 //-------------------------------------------------------------------------------

@@ -28,7 +28,7 @@ void TSphere::FromAABB( const TAABB& aabb )
     m_centre = (aabb.GetMin() + aabb.GetMax()) * 0.5f;
     float radius1 = (aabb.GetMin() - m_centre).GetSquaredLength();
     float radius2 = (aabb.GetMax() - m_centre).GetSquaredLength();
-	m_radius = (float) sqrt(TMax(radius1, radius2));
+	m_radius = (float)Sqrt(TMax(radius1, radius2));
 }
 
 //-------------------------------------------------------------------------------

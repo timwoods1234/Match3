@@ -15,7 +15,7 @@ void TQuaternion::FromRotationMatrix(const TMatrix& rot)
     if ( trace > 0.0 )
     {
         // |w| > 1/2, may as well choose w > 1/2
-        root = sqrt( trace + 1.0f );  // 2w
+        root = Sqrt( trace + 1.0f );  // 2w
         w = 0.5f * root;
         root = 0.5f / root;  // 1/(4w)
         x = ( rot.m[2][1]-rot.m[1][2] )*root;
@@ -34,7 +34,7 @@ void TQuaternion::FromRotationMatrix(const TMatrix& rot)
         int j = s_next[i];
         int k = s_next[j];
 
-        root = sqrt( rot.m[i][i] - rot.m[j][j] - rot.m[k][k] + 1.0f );
+        root = Sqrt( rot.m[i][i] - rot.m[j][j] - rot.m[k][k] + 1.0f );
         float* quat[3] = { &x, &y, &z };
         *quat[i] = 0.5f * root;
         root = 0.5f / root;
@@ -90,7 +90,7 @@ void TQuaternion::ToAngleAxis(float& angle, TVector3& axis) const
     if ( sqrLength > 0.0 )
     {
         angle = 2.0f * acos( w );
-        float invLength = 1.0f / sqrt( sqrLength );
+        float invLength = 1.0f / Sqrt( sqrLength );
         axis.x = x * invLength;
         axis.y = y * invLength;
         axis.z = z * invLength;
@@ -223,7 +223,7 @@ TQuaternion TQuaternion::Inverse() const
 //-------------------------------------------------------------------------------
 TQuaternion TQuaternion::Exp() const
 {
-    float angle = sqrt(x*x + y*y + z*z);
+    float angle = Sqrt(x*x + y*y + z*z);
     float fsin = sin(angle);
 
     TQuaternion result;

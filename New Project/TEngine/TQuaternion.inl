@@ -167,7 +167,7 @@ inline TQuaternion TQuaternion::UnitInverse() const
 //-------------------------------------------------------------------------------
 inline float TQuaternion::GetLength() const
 {
-	return sqrt(GetSquaredLength());
+	return Sqrt(GetSquaredLength());
 }
 
 //-------------------------------------------------------------------------------

@@ -107,7 +107,7 @@ void TVector2::Set(float x, float y)
 //-------------------------------------------------------------------------------
 float TVector2::GetLength() const
 {
-	return sqrt(GetSquaredLength());
+	return Sqrt(GetSquaredLength());
 }
 
 //-------------------------------------------------------------------------------
