@@ -1,0 +1,8 @@
+image background Assets/2D/Background.jpg 0 0 755 600
+image timeIcon Assets/2D/timeIcon.png 32 12 64 64
+text timerValue 0 100 12 255 193 0
+image scoreIcon Assets/2D/scoreIcon.png 32 125 64 64
+text scoreValue 0 100 125 255 193 0
+image selection Assets/2D/selection.png 0 0 35 36
+button quitButton Assets/2D/QuitButton.png 691 0 48 49
+button restartButton Assets/2D/RestartButton.bmp 400 268 128 64

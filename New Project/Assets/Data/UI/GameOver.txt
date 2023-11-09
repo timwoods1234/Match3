@@ -1,0 +1,5 @@
+image background Assets/2D/Background.jpg 0 0 755 600
+button continueButton Assets/2D/ContinueButton.bmp 400 200 212 64
+button restartButton Assets/2D/RestartButton.bmp 400 268 128 64
+button quitButton Assets/2D/QuitButton.png 691 0 48 49
+text continueValue 0 554 214 0 180 150

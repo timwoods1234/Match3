@@ -1,0 +1,2 @@
+Assets/2D/Smoke/Smoke.txt
+Assets/2D/Cowboy/Cowboy.txt

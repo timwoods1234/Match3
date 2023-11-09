@@ -1,0 +1,4 @@
+image background Assets/2D/Background.jpg 0 0 755 600
+button playButton Assets/2D/PlayButton.bmp 400 268 128 64
+button quitButton Assets/2D/QuitButton.png 691 0 48 49
+image tutorial Assets/2D/Tutorial.png 350 150 256 256

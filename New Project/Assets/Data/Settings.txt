@@ -1,0 +1,9 @@
+int ComboCount 3
+int TileSize 36
+int ScorePerTile 1
+float GridX 364
+float GridY 108
+float TransitionTime 0.5
+float TimeLimit 60
+float volume 0.5
+int continueCost 25

@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{328b267b-ee26-4def-ab15-0b8fad23ada8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Event System">
+      <UniqueIdentifier>{4a6fc3de-58b8-47f0-bd0e-89564ce58b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Event System\Handler">
+      <UniqueIdentifier>{4081157a-ef1c-4815-89bd-3922243deddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Event System\EventBase">
+      <UniqueIdentifier>{10d5327f-a90a-4bd2-a60c-cc1421276681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Event System\Event">
+      <UniqueIdentifier>{63e5d15a-e121-4754-a1ba-09f9df1d5c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Effects">
+      <UniqueIdentifier>{e6fb27dd-4db5-4c51-8ec0-25acaa5979e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameState">
+      <UniqueIdentifier>{b45493e7-4abe-4e2e-8641-8e49cd68cc98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Entity">
+      <UniqueIdentifier>{eeb12ac5-0241-44ed-b4e6-5c03364d5b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{ae066b24-a71c-4a0f-9229-eb300db688b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{d7abc235-f57f-43c8-b00f-0dd4824b04ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{0feade1d-ae59-4afe-a281-8abfb037c803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Types">
+      <UniqueIdentifier>{061bcabd-a302-40ea-853d-a396fe7218ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Geometry">
+      <UniqueIdentifier>{572f659e-6ff0-4323-849a-bfc6516f4285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{f6e72170-1a88-47c4-82b4-e6ee92b2b04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\D3D">
+      <UniqueIdentifier>{0ea8f130-e0bf-4047-a916-9475329269b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Camera">
+      <UniqueIdentifier>{7d636150-77bb-48ca-b811-31ec13695d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{cc65db9c-494b-422b-85ae-a7881f56affd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Text">
+      <UniqueIdentifier>{c5732194-6497-427f-b316-23b242ba7441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{4bf3b54e-69bc-4160-8d7e-1a84a949b634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File System">
+      <UniqueIdentifier>{b52c8eaf-5da5-4e15-acd2-b77c5b19567e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File System\Data">
+      <UniqueIdentifier>{1978597c-dfae-4992-a2c2-e477a520f04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{b9f3a1aa-57e3-4715-a964-78165d899b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{1f2ce0e1-dac5-49ca-bd2a-586bd48f4f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{b03fe93f-6e63-41eb-ba4b-f8ded6105731}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EngineGlobals.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Locator.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TGame.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TGameConsoleCommands.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TEvent.cpp">
+      <Filter>Framework\Event System\EventBase</Filter>
+    </ClCompile>
+    <ClCompile Include="TEffectManager.cpp">
+      <Filter>Framework\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>Framework\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Framework\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityDefinition.cpp">
+      <Filter>Framework\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>Framework\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginDefinition.cpp">
+      <Filter>Framework\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectAudio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundDefinition.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundWaveFile.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseKeyInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionPoints.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TMatrix.cpp">
+      <Filter>Math\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="TQuaternion.cpp">
+      <Filter>Math\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="TVector2.cpp">
+      <Filter>Math\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="TVector3.cpp">
+      <Filter>Math\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="TVector4.cpp">
+      <Filter>Math\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="TAABB.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="TLine.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="TPlane.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="TSphere.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TAnimatedSprite.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TMesh.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TSprite.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TTexture.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TUtil.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>Rendering\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TD3D.cpp">
+      <Filter>Rendering\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Rendering\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiCursor.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiItem.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiSlider.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiText.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DTextPrinter.cpp">
+      <Filter>UI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="IMemoryChunk.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemHeap.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemMgr.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemPool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="TMemory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLoader.cpp">
+      <Filter>File System\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DataVariant.cpp">
+      <Filter>File System\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="TConsole.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="TETimer.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="TGeneralLib.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="TString.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Error</Filter>
+    </ClCompile>
+    <ClCompile Include="TError.cpp">
+      <Filter>Error</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineGlobals.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Locator.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TGame.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TEventHandler.h">
+      <Filter>Framework\Event System\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="TEventHandlerBase.h">
+      <Filter>Framework\Event System\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="TEventParamHandler.h">
+      <Filter>Framework\Event System\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="TEventParamHandlerBase.h">
+      <Filter>Framework\Event System\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="TEvent.h">
+      <Filter>Framework\Event System\EventBase</Filter>
+    </ClInclude>
+    <ClInclude Include="TEventListener.h">
+      <Filter>Framework\Event System\EventBase</Filter>
+    </ClInclude>
+    <ClInclude Include="TEventParam.h">
+      <Filter>Framework\Event System\EventBase</Filter>
+    </ClInclude>
+    <ClInclude Include="TEventRender.h">
+      <Filter>Framework\Event System\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="TEventRender2D.h">
+      <Filter>Framework\Event System\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="TEventRender3D.h">
+      <Filter>Framework\Event System\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="TEventUpdate.h">
+      <Filter>Framework\Event System\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="TEffectManager.h">
+      <Filter>Framework\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Framework\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>Framework\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Framework\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityDefinition.h">
+      <Filter>Framework\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugin.h">
+      <Filter>Framework\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginDefinition.h">
+      <Filter>Framework\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectAudio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="IAudio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDefinition.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundWaveFile.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="IInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseKeyInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TMatrix.h">
+      <Filter>Math\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="TQuaternion.h">
+      <Filter>Math\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="TVector2.h">
+      <Filter>Math\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="TVector3.h">
+      <Filter>Math\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="TVector4.h">
+      <Filter>Math\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="TAABB.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="TLine.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="TPlane.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="TRay.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="TSphere.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="TTriangle.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderDevice.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TAnimatedSprite.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TMesh.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TSprite.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TTexture.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TUtil.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.h">
+      <Filter>Rendering\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TD3D.h">
+      <Filter>Rendering\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Rendering\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiCallbackHandler.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiCursor.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiHandlerBase.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiItem.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiSlider.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiText.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DTextPrinter.h">
+      <Filter>UI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="ITextPrinter.h">
+      <Filter>UI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="AllocHeader.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="IMemoryChunk.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemHeap.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemMgr.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemPool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeRelease.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="TMemory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDefinition.h">
+      <Filter>File System\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLoader.h">
+      <Filter>File System\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataVariant.h">
+      <Filter>File System\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TConsole.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TETimer.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TGeneralLib.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TString.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMacro.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="TError.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="TAudioClasses.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TEngine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TEntityClasses.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TErrorClasses.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TFileSystem.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TFramework.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TInputClasses.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TMathClasses.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TMemoryClasses.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TMisc.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TRenderingClasses.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TUIClasses.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Locator.inl">
+      <Filter>Framework</Filter>
+    </None>
+    <None Include="TEventHandler.inl">
+      <Filter>Framework\Event System\Handler</Filter>
+    </None>
+    <None Include="TEventHandlerBase.inl">
+      <Filter>Framework\Event System\Handler</Filter>
+    </None>
+    <None Include="TEventParamHandler.inl">
+      <Filter>Framework\Event System\Handler</Filter>
+    </None>
+    <None Include="TEventParamHandlerBase.inl">
+      <Filter>Framework\Event System\Handler</Filter>
+    </None>
+    <None Include="TEvent.inl">
+      <Filter>Framework\Event System\EventBase</Filter>
+    </None>
+    <None Include="TEventParam.inl">
+      <Filter>Framework\Event System\EventBase</Filter>
+    </None>
+    <None Include="TMath.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="TMatrix.inl">
+      <Filter>Math\Types</Filter>
+    </None>
+    <None Include="TQuaternion.inl">
+      <Filter>Math\Types</Filter>
+    </None>
+    <None Include="TVector2.inl">
+      <Filter>Math\Types</Filter>
+    </None>
+    <None Include="TVector3.inl">
+      <Filter>Math\Types</Filter>
+    </None>
+    <None Include="TVector4.inl">
+      <Filter>Math\Types</Filter>
+    </None>
+    <None Include="TAABB.inl">
+      <Filter>Math\Geometry</Filter>
+    </None>
+    <None Include="TLine.inl">
+      <Filter>Math\Geometry</Filter>
+    </None>
+    <None Include="TPlane.inl">
+      <Filter>Math\Geometry</Filter>
+    </None>
+    <None Include="TRay.inl">
+      <Filter>Math\Geometry</Filter>
+    </None>
+    <None Include="TSphere.inl">
+      <Filter>Math\Geometry</Filter>
+    </None>
+    <None Include="TMesh.inl">
+      <Filter>Rendering</Filter>
+    </None>
+    <None Include="TTexture.inl">
+      <Filter>Rendering</Filter>
+    </None>
+    <None Include="GuiItem.inl">
+      <Filter>UI</Filter>
+    </None>
+    <None Include="GuiManager.inl">
+      <Filter>UI</Filter>
+    </None>
+    <None Include="TString.inl">
+      <Filter>Misc</Filter>
+    </None>
+  </ItemGroup>
+</Project>

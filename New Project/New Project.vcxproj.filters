@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game States">
+      <UniqueIdentifier>{637138c3-5b50-493d-ae04-2e157116b688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{c6ebdbbb-1ec6-49f2-8366-9221ad8542e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid">
+      <UniqueIdentifier>{8a7eef7f-963c-4745-b242-d54b846a3e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{ae7c92d4-11bd-43c7-80d3-2c5d185d2d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{9510a2b6-e61a-4d95-b542-6ff1f04e4cdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Playing.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncerPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncerPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="MoverPlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="MoverPluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="SpritePlugin.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="SpritePluginDefinition.cpp">
+      <Filter>Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="GridTile.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="MoverManager.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAssigner.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameOver.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Playing.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncerPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncerPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="MoverPlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="MoverPluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginFactory.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="SpritePlugin.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="SpritePluginDefinition.h">
+      <Filter>Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="GridTile.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="MoverManager.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAssigner.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="EventCombo.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMoveBegun.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMoveFinished.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

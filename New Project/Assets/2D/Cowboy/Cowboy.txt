@@ -1,0 +1,2 @@
+Stand 1 Loop Assets/2D/Cowboy 1
+Idle 12 Stand Assets/2D/Cowboy 16
